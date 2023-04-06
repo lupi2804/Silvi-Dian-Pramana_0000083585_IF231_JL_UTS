@@ -1,0 +1,191 @@
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	background-color: #f1f1f1;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav ul li {
+	margin: 0 10px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #000;
+}
+
+/* Main Game */
+#main-game {
+	text-align: center;
+	padding: 50px;
+}
+
+#minion-container {
+	position: absolute;
+	display: inline-block;
+}
+
+#minion {
+	width: 200px;
+	height: 200px;
+}
+
+#minion-clicks {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 24px;
+	color: white;
+}
+
+#money-container {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 50px;
+}
+
+#money {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#upgrades-container {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 50px;
+}
+
+.upgrade {
+	margin-bottom: 10px;
+}
+
+#autoClickerBtn {
+	margin-top: 20px;
+	background-color: #007bff;
+	color: #fff;
+	padding: 10px;
+	cursor: pointer;
+}
+
+#stats {
+	margin-top: 20px;
+}
+
+.notification {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  /*about us*/
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.references-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+
+  .beli {
+	background-color: #4CAF50; /* Warna hijau */
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.beli:hover {
+	background-color: #3e8e41; /* Warna hijau yang lebih gelap saat di-hover */
+}
+
+.multiplier {
+	background-color: #4CAF50; /* Warna hijau */
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.multiplier:hover {
+	background-color: #3e8e41; /* Warna hijau yang lebih gelap saat di-hover */
+}
